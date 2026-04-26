@@ -30,9 +30,9 @@
 - Transformer captures global dependencies effectively
 
 ## Ablation Study:
-- Smaller window size → insufficient context
-- Larger window size → noisy and harder to train
-- Optimal performance at moderate window size
+- window_size = 4 (smaller context)
+- window_size = 8 (original)
+- window_size = 16 (larger context)
 
 ## Dataset:
 Download from:
