@@ -14,7 +14,7 @@ from models.transformer import TransformerModel
 
 
 # Parameters
-window_size = 16
+window_size = 8
 prediction_horizon = 3
 hidden_size = 14
 
